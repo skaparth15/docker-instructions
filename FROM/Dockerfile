@@ -4,3 +4,4 @@ CMD  ["nginx", "-g", "daemon off;"]
 LABEL course="devops" \
       name="charan"
 EXPOSE 80/tcp
+ENV concept=docker-instructions
