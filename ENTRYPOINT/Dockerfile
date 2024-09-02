@@ -1,2 +1,2 @@
 FROM almalinux:9
-ENTRYPOINT [ "ping" ,"c5" , "google.com"]
+ENTRYPOINT [ "ping" ,"C5" , "google.com"]
