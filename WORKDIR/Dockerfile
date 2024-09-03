@@ -1,5 +1,6 @@
 FROM almalinux:9
 RUN mkdir app
 WORKDIR /app
+ARG seconds=100
 RUN pwd
-CMD ["sleep" ,"100" ]
+CMD ["sleep" ,"${seconds}" ]
