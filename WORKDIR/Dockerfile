@@ -4,4 +4,4 @@ WORKDIR /app
 ARG seconds=100
 ENV seconds=${seconds}
 RUN pwd
-CMD sleep ${seconds}
+CMD ["sh", "-c", "sleep ${seconds}"]
